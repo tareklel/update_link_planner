@@ -14,8 +14,15 @@ class UpdateLinkPlanner:
     Updates linkbuilding sheet with the latest keywords ranking metrics and content written.
     '''
 
-    def __init__(self, titles: list, key: str, period:int,limit:int,save_destination:str,
-                 uploaded_content:str,link_building_planner:str):
+    def __init__(
+            self,
+            titles: list,
+            key: str,
+            period: int,
+            limit: int,
+            save_destination: str,
+            uploaded_content: str,
+            link_building_planner: str):
 
         self.titles = titles
         self.key = key
