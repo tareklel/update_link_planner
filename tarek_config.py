@@ -5,7 +5,7 @@ class TarekConfig:
         'Kuwait English', 'Qatar English', 'Kuwait Arabic',
         'UAE Arabic'
     ]
-    key = '9379b36d2ed22267974827fd6b407a49'
+    key = ''
     period = 28
     limit = 5000
     parent = '/Users/tarek.lel/Desktop'
